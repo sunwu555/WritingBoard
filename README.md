@@ -24,6 +24,9 @@ The GUI can be run by
 
 Since training procedure for the kd-tree and LSH takes a while, so it needs about 30s to open the application.
 
+
+![](https://github.com/sunwu555/WritingBoard/blob/master/UI_Image/GUI.png)
+
 The application is pretty easy to use, writing on the top right grey area, and hit the query button, the below form will show the result classfication(which number each algorithm thinks your writting is), nearest result it finds, and running time of each algorithm.
 
 Sometimes LSH couldn't return enough result, so it won't show the full result. That's mostly because we only using 10000 sample data for training. More training data could solve this problem, however it will takes much longer time for each query(about 40s every time), and also loger time for training(may take 2min to open the application).
